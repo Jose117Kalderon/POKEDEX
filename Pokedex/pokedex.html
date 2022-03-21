@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEDEX</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap">
+    <script src="script.js" type="text/javascript" defer></script>    
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <img class="pokedeximg" src="./pokedex.gif">
+    <div data-poke-card class="poke-card">
+        <div data-poke-name class="h1">Pokedex</div>
+    <!--imagenes de pokemones-->    
+        <div data-poke-img-container class="img-container">
+            <div class="pokemoncentral">
+            <img data-poke-img class="poke-img" width=" 75PX" src="./pokebola.png">
+            </div>
+        </div>
+    <!--barra de buscar-->
+    <div class="poke-busq">
+            <div class="poke-s">
+            <form action="" onsubmit="searchPokemon(event)">
+                <input type="text" name="pokemon" autocomplete="off">
+            </form>
+            </div>
+    </div>
+    <!--ID de pokemon-->
+    <div class="poke-id">
+        <div class="poke-idinf">
+            <div data-poke-id></div>
+        </div>
+    </div>
+    <!--tipo de pokemon y informacion-->
+    <div class="poke-inf">
+        <div class="poke-tex">
+            <div data-poke-types class="poke-types"></div>
+            <div data-poke-stats class="poke-stats"></div>
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>

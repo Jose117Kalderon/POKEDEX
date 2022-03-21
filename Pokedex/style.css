@@ -1,0 +1,81 @@
+.poke-stats div{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
+.pokedeximg{
+    position: absolute;
+    top: 25px;
+    left: 300px;
+    width: 700px;
+    height: 700px;
+}
+
+.pokemoncentral{
+ position:absolute;
+ background-color: black;
+ top: 300px;
+ left: 400px;
+ width: 175px;
+ height: 135px;
+
+}
+
+.poke-img{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.poke-busq{
+    position:absolute;
+    top: 300px;
+    left: 400px;
+    width: 175px;
+    height: 135px;
+}
+.poke-s{
+    position: absolute;
+    top: 110px;
+    left: 0px;
+}
+
+.poke-inf{
+    position:absolute;
+    border-radius: 20px;
+    background-color: rgb(26, 26, 26);
+    top: 267px;
+    left: 695px;
+    width: 245px;
+    height: 266px;
+}
+
+.poke-tex{
+    color: white;
+    
+}
+
+.poke-id{
+  position:absolute;
+  border-radius: 20px;
+    background-color: rgba(58, 230, 52);
+    top: 515px;
+    left: 405px;
+    width: 110px;
+    height: 59px;  
+}
+
+.poke-idinf{
+    top: 70px;
+    left: 100px;
+    text-align: center;
+    color: white;
+}
+
+.h1{
+    text-align: center;
+    color: black;
+    font-size:large;
+}
